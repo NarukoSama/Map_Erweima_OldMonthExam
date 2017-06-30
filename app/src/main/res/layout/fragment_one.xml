@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwie.fivemonth_yuekao_a_map_erweima.OneFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢迎使用"
+        android:layout_above="@+id/tvvvv"
+        android:textSize="17dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="八维共享单车"
+        android:textSize="17dp"
+        android:id="@+id/tvvvv"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
